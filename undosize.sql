@@ -11,4 +11,4 @@ FROM DBA_UNDO_EXTENTS c
 WHERE status <> 'EXPIRED'
 GROUP BY c.tablespace_name) b
 WHERE a.tablespace_name = b.tablespace_name;
-123
+
