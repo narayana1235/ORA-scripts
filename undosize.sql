@@ -1,3 +1,5 @@
+undo size
+=========
 SELECT a.tablespace_name,
 SIZEMB,
 USAGEMB,
